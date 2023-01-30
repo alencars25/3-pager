@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Music</title>
+    <link rel="icon" type="favicon" href="favicon.png">
+    <style>
+        
+        .grid-container  {
+        grid-template-areas: 
+        'topnav topnav topnav topnav topnav topnav' 
+        'h1part1 h1part1 h1part1 h1part1 h1part1 h1part1' 
+        'middle middle middle middle middle middle' 
+        'right right right right right right' 
+        'footer footer footer footer footer footer';
+  }
+
+
+        body {
+            background-image: linear-gradient(90deg, #e14bff 40%, #00e1ff 100%);
+            background-color: rgba(255, 255, 255, 0.5);
+        }
+
+        .topnav {
+            background-color:rgba(255, 255, 255, 0.5);
+            overflow: hidden;
+        }
+
+        .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+        }
+
+        .topnav a:hover {
+            background-color: rgba(255, 255, 255, 0.692);
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: rgba(0, 153, 255, 0.863);
+            color: white;
+        }
+        
+        .topnav a.active:hover {
+            background-color: rgba(0, 255, 255, 0.5);
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+        }
+
+        .h1part1 {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 1px 100px;
+        }
+
+        .section1 {
+            display: flex;
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        #image1 {
+            height: 400px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            margin-right: 0px;
+        }
+
+        .textsection1 {
+            font-size: larger;
+            padding-left: 25px;
+        }
+
+        #logo {
+            height: 100px;
+            margin-top: -80px;
+            margin-left: -95px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="h1part1">
+        <div><h1>80s-90s Music</h1></div>
+        <div><img src="sun.png" id="logo"></div>
+      </div>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">80s</a>
+        <a href="#about">90s</a>
+      </div>
+
+      
+      <div class="section1">
+        <div class="imagesection1"><img src="Ilove.png" id="image1"></div>
+        <div class="textsection1"><p style="font-size: larger;">During the late 70s a big shift in music started. With the introduction of 
+        <br>synthesizers, many people switched from instruments in a studio, to now a keyboard which <br>was capable of playing authentic instruments.</p></div>
+      </div>
+      
+</body>
+</html>
